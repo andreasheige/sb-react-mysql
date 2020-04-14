@@ -40,7 +40,7 @@ export default function AddEmployee() {
     const [firstLoad, setLoad] = React.useState(true);
 
     const [selectedDate, setSelectedDate] = React.useState(
-        new Date("1983-01-16T05:05:05")
+        new Date("")
     );
     const [name, setName] = React.useState("");
     const [department, setDepartment] = React.useState("");
@@ -140,7 +140,7 @@ export default function AddEmployee() {
                             id="date"
                             label="Date of birth"
                             type="date"
-                            defaultValue="1983-01-16"
+                            defaultValue=""
                             className={classes.textField}
                             InputLabelProps={{
                                 shrink: true
